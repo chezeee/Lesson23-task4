@@ -2,7 +2,7 @@
  * @param {HTMLButtonElement} button
  */
 const isDisabled = (button) => {
-  // your code
+  return button.hasAttribute("disabled");
 };
 
 // Sample usage - do not modify
